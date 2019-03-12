@@ -13,6 +13,8 @@
         <module>laborator1</module>
         <module>laborator2</module>
         <module>laborator2_2</module>
+        <module>laborator3</module>
+
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

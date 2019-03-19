@@ -4,7 +4,7 @@ Fiecare student va lucra la un proiect individual. Proiectul este structurat în
 Codul aplicatiei va fi submis pana la termenul de predare pe Github.
 
 Terme de predare:
-Etapa I: (github - 31.03.2019, sustinere in laborator - 26.03.2019)
+Etapa I: (github - 31.03.2019, sustinere in laborator - 2.04.2019)
 Etapa II: (github - 05.05.2019, laborator - 07.05.2019)
 Etapa III: (ultima saptamana din semestru)
 

@@ -1,10 +1,10 @@
 Proiect 233
 
 Fiecare student va lucra la un proiect individual. Proiectul este structurat în mai multe etape. Condiția de punctare a proiectelor este aceea ca acestea să nu prezinte erori de compilare și să implementeze cerințele date. 
-Codul aplicatiei va fi submis pe Github pana la termenul de predare.
+Codul aplicatiei va fi submis pana la termenul de predare pe Github.
 
 Terme de predare:
-Etapa I: (github - 24.03.2019, sustinere in laborator - 26.03.2019)
+Etapa I: (github - 31.03.2019, sustinere in laborator - 26.03.2019)
 Etapa II: (github - 05.05.2019, laborator - 07.05.2019)
 Etapa III: (ultima saptamana din semestru)
 
@@ -16,7 +16,7 @@ Etapa I:
 	- sa se creeze o lista pe baza temei alese cu cel puțin 10 acțiuni/interogări care se pot face în cadrul sistemului și o lista cu cel puțin 8 tipuri de obiecte. 
 2. Implementare: sa se implementeze în limbajul Java o aplicație pe baza celor definite la punctul. Aplicația va conține: 
 	- clase simple cu atribute private / protected și metode de acces
-	- cel puțin o 2 colecții diferite capabile să gestioneze obiectele definite anterior (List, Set, Map, etc.) dintre care cel puțin una sa fie sortata.
+	-(se poate face in etapa a 2-a) cel puțin o 2 colecții diferite capabile să gestioneze obiectele definite anterior (List, Set, Map, etc.) dintre care cel puțin una sa fie sortata.
 	- utilizare moștenire pentru crearea de clase adiționale și utilizarea lor în cadrul colecțiilor;
 	- cel puțin o clasa serviciu care sa expună operațiile 
 	- o clasa main din care sunt făcute apeluri către servicii 

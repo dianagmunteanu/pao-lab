@@ -14,7 +14,7 @@ Pentru orice informație suplimentară sau neclarități: diana.munteanu@endava.
 Etapa I:
 1. Definirea sistemului: 
 	- sa se creeze o lista pe baza temei alese cu cel puțin 10 acțiuni/interogări care se pot face în cadrul sistemului și o lista cu cel puțin 8 tipuri de obiecte. 
-2. Implementare: sa se implementeze în limbajul Java o aplicație pe baza celor definite la punctul. Aplicația va conține: 
+2. Implementare: sa se implementeze în limbajul Java o aplicație pe baza celor definite la punctul I.1. Aplicația va conține:
 	- clase simple cu atribute private / protected și metode de acces
 	-(se poate face in etapa a 2-a) cel puțin o 2 colecții diferite capabile să gestioneze obiectele definite anterior (List, Set, Map, etc.) dintre care cel puțin una sa fie sortata.
 	- utilizare moștenire pentru crearea de clase adiționale și utilizarea lor în cadrul colecțiilor;

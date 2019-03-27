@@ -6,7 +6,7 @@ public class Start {
 
     public static void main(String[] args) {
 
-        System.out.println("Wellcome to Diana's library");
+        System.out.println("Welcome to Diana's library");
 
         UserService userService = new UserService();
         BookService bookService = new BookService();

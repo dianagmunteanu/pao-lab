@@ -8,7 +8,7 @@ public class Start {
 
     public static void main(String[] args) {
 
-        System.out.println("Wellcome to Diana's library");
+        System.out.println("Welcome to Diana's library");
 
 
        LibraryService libraryService = new LibraryService();

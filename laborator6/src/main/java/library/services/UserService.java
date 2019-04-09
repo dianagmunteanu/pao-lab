@@ -1,20 +1,16 @@
 package library.services;
 
 import library.configuration.RepositoryConfig;
-import library.domain.ErrorCode;
 import library.domain.LibraryException;
-import library.domain.entity.Reservation;
 import library.domain.entity.User;
 import library.domain.repository.ReservationRepository;
 import library.domain.repository.UserRepository;
 
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import static library.domain.ErrorCode.INCORRECT_USER_ID;
-import static library.domain.ErrorCode.PRINT_ALL_USERS_ERROR;
-import static library.domain.ErrorCode.USER_NOT_FOUND;
+import static library.domain.ErrorCode.*;
 
 public class UserService {
 
@@ -34,7 +30,7 @@ public class UserService {
             }
         }
         if (selectedUser == null) {
-            throw new LibraryException(USER_NOT_FOUND, "Could not find the user with id: "+userId);
+            throw new LibraryException(USER_NOT_FOUND, "Could not find the user with id: " + userId);
         }
         return selectedUser.getName();
     }
@@ -43,16 +39,17 @@ public class UserService {
         try {
             int id = new Integer(userId);
             return getUserNameById(id);
-        }catch (NumberFormatException e){
-            throw new LibraryException(INCORRECT_USER_ID, "Could not convert to int the following userId: "+userId);
+        } catch (NumberFormatException e) {
+            throw new LibraryException(INCORRECT_USER_ID, "Could not convert to int the following userId: " + userId);
         }
     }
 
     private void printUsers(User[] result) {
         PrintWriter printWriter = null;
-        try {
-            FileWriter fileWriter = new FileWriter("all-users.txt");
-            printWriter = new PrintWriter(fileWriter);
+        try (FileOutputStream outputStream = new FileOutputStream("all-users.txt")) {
+            /*FileWriter fileWriter = new FileWriter("all-users.txt");
+            printWriter = new PrintWriter(fileWriter);*/
+            printWriter = new PrintWriter(outputStream);
             for (int i = 0; i < result.length; i++) {
                 if (result[i] == null) {
                     break;
@@ -62,11 +59,6 @@ public class UserService {
             }
         } catch (IOException e) {
             throw new LibraryException(PRINT_ALL_USERS_ERROR, e.getMessage());
-        }
-        finally {
-            if(printWriter!=null){
-                printWriter.close();
-            }
         }
     }
 

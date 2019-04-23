@@ -17,6 +17,7 @@
         <module>laborator4</module>
         <module>laborator5</module>
         <module>laborator6</module>
+        <module>laborator8-BankOCR</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

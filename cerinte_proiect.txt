@@ -34,7 +34,7 @@ se vor realiza fișiere de tip csv pentru cel puțin 4 dintre clasele definite i
 Etapa III:
 1. Înlocuiți serviciile realizate în etapa a II-a cu servicii care sa asigure persistenta utilizând baza de date folosind JDBC.
 	- sa se realizeze servicii care sa expună operații de tip create, read, update, delete pentru cel puțin 4 dintre clasele definite 
-2. Sa se realizeze o interfață grafica în care sa fie expuse cel puțin 5 dintre acțiunile definite inițial. Interfața va avea cel puțin 2 ecrane diferite care sa permită navigarea intre ele. Se va utiliza Swing sau JSP pentru realizarea interfeței grafice. 		
+2. Sa se realizeze o interfață grafica în care sa fie expuse cel puțin 5 dintre acțiunile definite inițial. Interfața va avea cel puțin 2 ecrane diferite care sa permită navigarea intre ele. Se va utiliza Swing pentru realizarea interfeței grafice. 		
 Utilizarea altor framework-uri în afara celor menționate mai sus trebuie discutata în prealabil cu mine.
 3. Se va adăuga în fișierul exportat de serviciul de audit încă o coloana: thread_name
 	

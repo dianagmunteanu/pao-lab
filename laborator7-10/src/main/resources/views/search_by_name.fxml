@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.controller.SearchByNameController">
+   <children>
+      <Label layoutX="153.0" layoutY="163.0" text="Name" />
+      <TextField fx:id="tf_name" layoutX="208.0" layoutY="158.0" />
+      <Button layoutX="337.0" layoutY="228.0" mnemonicParsing="false" onAction="#searchByName" text="Search" />
+   </children>
+</Pane>

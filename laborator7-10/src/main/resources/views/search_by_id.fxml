@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="library.controller.SearchByIdController">
+    <children>
+        <Button layoutX="225.0" layoutY="14.0" mnemonicParsing="false" onAction="#displayById" text="Search"/>
+        <TextField fx:id="tf_id" layoutX="23.0" layoutY="14.0"/>
+        <TableView fx:id="table" layoutX="31.0" layoutY="75.0" prefHeight="97.0" prefWidth="562.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Id">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="id" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="257.0" text="Full Name">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="fullName" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </children>
+</Pane>

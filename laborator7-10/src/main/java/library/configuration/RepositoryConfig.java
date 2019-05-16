@@ -3,11 +3,16 @@ package library.configuration;
 import library.domain.repository.*;
 
 import java.io.FileNotFoundException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class RepositoryConfig {
-    private UserRepository userRepository = new UserRepositorySmartImpl();
+    private UserRepository userRepository = new UserRepositoryDBImpl();
     private BookRepository bookRepository;
     private ReservationRepository reservationRepository = new ReservationRepositoryImpl();
+
 
     public UserRepository getUserRepository() {
         return userRepository;

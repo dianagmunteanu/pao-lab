@@ -20,6 +20,7 @@
         <module>laborator8-BankOCR</module>
         <module>laborator7-10</module>
         <module>laborator10-NOT_TO_BE_USED</module>
+        <module>laborator11</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

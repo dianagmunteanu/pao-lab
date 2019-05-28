@@ -5,6 +5,14 @@
     <groupId>pao</groupId>
     <artifactId>laborator8-BankOCR</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
     <name>laborator8-BankOCR</name>

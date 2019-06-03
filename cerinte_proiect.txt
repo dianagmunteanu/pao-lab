@@ -6,7 +6,7 @@ Codul aplicatiei va fi submis pana la termenul de predare pe Github.
 Terme de predare:
 Etapa I: (github - 31.03.2019, sustinere in laborator - 2.04.2019)
 Etapa II: (github - 05.05.2019, laborator - 07.05.2019)
-Etapa III: (github - 04.06.2019, laborator - 04.06.2019 ora 8:00, sau 28.06.2019)
+Etapa III: (github - 04.06.2019, laborator - 04.06.2019 ora 8:00, sau 28.05.2019)
 
 Pentru orice informație suplimentară sau neclarități: diana.munteanu@endava.com
 
